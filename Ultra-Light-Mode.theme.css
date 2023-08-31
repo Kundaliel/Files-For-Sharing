@@ -1,0 +1,37 @@
+/**
+ * @name Ultra Light Mode
+ * @description Get Flash-Banged
+ * @version 2.0
+ * @author Not A Boy Kisser
+ */
+
+/* To change the colors, modify the variables inside the root {}, do NOT change the @import url() */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+:root {
+    --font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --settingsicons: 1;
+
+    --accentcolor: 255, 255, 255; /* White */
+    --accentcolor2: 255, 255, 255; /* White */
+    --linkcolor: 255, 255, 255; /* White */
+    --mentioncolor: 255, 255, 255; /* White */
+    --successcolor: 255, 255, 255; /* White */
+    --warningcolor: 255, 255, 255; /* White */
+    --dangercolor: 255, 255, 255; /* White */
+
+    --textbrightest: 240, 240, 240; /* Even lighter gray */
+    --textbrighter: 240, 240, 240; /* Even lighter gray */
+    --textbright: 240, 240, 240; /* Even lighter gray */
+    --textdark: 240, 240, 240; /* Even lighter gray */
+    --textdarker: 240, 240, 240; /* Even lighter gray */
+    --textdarkest: 240, 240, 240; /* Even lighter gray */
+
+    --backgroundaccent: 255, 255, 255; /* White */
+    --backgroundprimary: 255, 255, 255; /* White */
+    --backgroundsecondary: 255, 255, 255; /* White */
+    --backgroundsecondaryalt: 255, 255, 255; /* White */
+    --backgroundtertiary: 255, 255, 255; /* White */
+    --backgroundfloating: 255, 255, 255; /* White */
+}
