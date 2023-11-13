@@ -1,0 +1,26 @@
+<style>
+  .mobile-chat {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  .mobile-chat:hover {
+    background-color: #45a049;
+  }
+</style>
+<h1>Quick Menu</h1><br>
+<a class="mobile-chat"
+  href="javascript:(function() { const frameWidth=375,frameHeight=667,container=document.createElement('div');container.style.position='fixed';container.style.top='10px';container.style.left='10px';container.style.width=frameWidth+'px';container.style.height=frameHeight+'px';container.style.overflow='hidden';container.style.border='1px solid #ccc';container.style.borderRadius='5px';container.style.zIndex='9999';const iframe=document.createElement('iframe');iframe.src='https://chat-room.discodes.repl.co/';iframe.style.width='100%';iframe.style.height='100%';iframe.style.border='none';const minimizeButton=document.createElement('div');minimizeButton.innerHTML='-';minimizeButton.style.position='absolute';minimizeButton.style.top='5px';minimizeButton.style.right='5px';minimizeButton.style.cursor='pointer';minimizeButton.addEventListener('click',function(){if(container.style.width==='30px'){container.style.width=frameWidth+'px';iframe.style.display='block';minimizeButton.innerHTML='-'}else{container.style.width='30px';iframe.style.display='none';minimizeButton.innerHTML='+'}});const moveButton=document.createElement('div');moveButton.innerHTML='&#8597;';moveButton.style.position='absolute';moveButton.style.top='5px';moveButton.style.left='5px';moveButton.style.cursor='move';let isDragging=!1,offsetX,offsetY;moveButton.addEventListener('mousedown',function(e){isDragging=!0,offsetX=e.clientX-container.getBoundingClientRect().left,offsetY=e.clientY-container.getBoundingClientRect().top}),document.addEventListener('mousemove',function(e){if(isDragging){container.style.left=e.clientX-offsetX+'px';container.style.top=e.clientY-offsetY+'px'}}),document.addEventListener('mouseup',function(){isDragging=!1}),container.appendChild(iframe),container.appendChild(minimizeButton),container.appendChild(moveButton),document.body.appendChild(container);})();">Chat</a>
